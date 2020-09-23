@@ -8,7 +8,23 @@ body {
 }
 
 .top-container {
-  background-color: #d6d6d6;
+  /* background-color: #d6d6d6; */
+  background-image: url("./images/background-rough.JPG");
+  backdrop-filter: blur(5px);
+
+  color: white;
+}
+
+.top-container p {
+  text-shadow: 2px 2px 40px black;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 40px black;
+
 }
 
 h1{
@@ -25,16 +41,14 @@ h2 {
   padding-top: 30px;
 }
 
-table {
-  background-color: #d6d6d6;
-}
-
-a {
-  text-decoration: none;
+h3 {
+  margin-top: 0;
+  maring-bottom: 0;
+  text-shadow: 2px 2px 40px black;
 }
 
 #title {
-  background-color: #d6d6d6;
+  /* background-color: #d6d6d6; */
   margin: 0px;
 }
 
@@ -44,6 +58,22 @@ a {
   height: 50px;
   border-bottom: 0.1px solid #707070;
   box-shadow: 0 20px 20px -20px #333;
+}
+#light-hr {
+  border-bottom: 0.1px solid white;
+  margin: 0px;
+}
+
+.shadow-hr-top {
+  border:none;
+  width: 100%;
+  height: 50px;
+  border-top: 0.1px solid #707070;
+  box-shadow: 0 -20px 20px -20px #333;
+  /* position: absolute; */
+  /* height: 1px; */
+  margin-bottom:0;
+  margin-top:70px;
 }
 
 .short-hr {
@@ -60,6 +90,10 @@ a {
 }
 
 .profilepic-container {
+}
+
+.job-section {
+  margin-top: 50px;
 }
 
 .description-container {
@@ -134,6 +168,8 @@ a {
   background-size: contain;
   opacity: 1;
   /* display: inline-block; */
+  filter: drop-shadow(0 0 10px #222);
+
 }
 
 
@@ -167,10 +203,17 @@ a {
   color: black;
 }
 
+#cliqz-content {
+  color: black;
+  text-shadow: none;
+}
+
 #cliqzlogo {
   background-image: url("./images/cliqzlogo.png");
   background-repeat: no-repeat;
   background-position: center;
+  filter: drop-shadow(0 0 1px #222);
+
 }
 
 #uberlogo {
@@ -193,7 +236,6 @@ a {
 
 #ghosterylogo {
   background-image: url("./images/ghosterylogo.png");
-  border-radius: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
