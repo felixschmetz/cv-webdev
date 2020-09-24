@@ -286,9 +286,12 @@ h3 {
   background-image: url("./images/ghostery.jpg");
 }
 
-
 #cliqz {
   background-image: url("./images/cliqz.png");
+}
+
+#burda {
+  background-image: url("./images/burda.jpg");
 }
 
 #cliqzlogo {
@@ -318,6 +321,12 @@ h3 {
 
 #ghosterylogo {
   background-image: url("./images/ghosterylogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#burdalogo {
+  background-image: url("./images/burdalogo.png");
   background-repeat: no-repeat;
   background-position: center;
 }
