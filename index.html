@@ -4,12 +4,15 @@
 <head>
   <meta charset="utf-8">
   <title>Felix Schmetz </title>
-  <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 
 </head>
@@ -21,7 +24,7 @@
 
     <div class="profile">
       <div class="profilepic-container">
-        <img class="profilepic" src="images/felix.jpeg" alt="profile pic">
+        <img class="profilepic" src="images/felix-belgium.jpeg" alt="profile pic">
       </div>
 
       <div class="description-container">
@@ -72,15 +75,19 @@
         <div class="overlay">
 
           <div class="jobposition-content">
-            <div class="companylogo" id="uberlogo"></div>
 
-            <!-- <div class="vertical-bar"></div> -->
+            <div class="row">
+              <div class="companylogo col-lg-4 col-md-2 col-sm-1" id="uberlogo"></div>
 
-            <div class="copmanyDesc">
-              <h2 class="position-title">Software Engineering Intern</h2>
-              <p>Redesigned Uber’s Instant Payments service. Implemented backend from start to deployment. Communicated with stakeholders and teams across Uber for seamless integration. Fixed bugs across Uber platform.</p>
-              <h5>Amsterdam, NL: Sept 2019 - Mar 2020</h5>
+              <!-- <div class="vertical-bar"></div> -->
+
+              <div class="copmanyDesc col-lg-6 col-md-4 col-sm-3">
+                <h2 class="position-title">Software Engineering Intern</h2>
+                <p>Redesigned Uber’s Instant Payments service. Implemented backend from start to deployment. Communicated with stakeholders and teams across Uber for seamless integration. Fixed bugs across Uber platform.</p>
+                <h5>Amsterdam, NL: Sept 2019 - Mar 2020</h5>
+              </div>
             </div>
+
           </div>
 
         </div>
@@ -93,14 +100,18 @@
 
           <div class="jobposition-content">
 
-            <div class="companylogo" id="drlogo"></div>
+            <div class="row">
 
-            <div class="copmanyDesc">
+              <div class="companylogo col-lg-4 col-md-2 col-sm-1" id="drlogo"></div>
+
+            <div class="copmanyDesc  col-lg-6 col-md-4 col-sm-3">
               <h2 class="position-title">Project Worker / Thesis Student</h2>
               <p>Designed and built a system to puppeteer virtual assets according to the 3D movement of an actor in a 2D video shot with a standard camera. Based on a marker-less motion tracker developed at DRZ. This formed my Bachelor’s thesis on
                 “Live Puppeteering of a Directable Character using a Single RGB Camera”. Grade 5.75 / 6.</p>
               <h5>Zurich, CH: Aug 2019 - Mar 2020</h5>
             </div>
+
+          </div>
           </div>
         </div>
       </div>
@@ -112,14 +123,17 @@
 
         <div class="jobposition-content">
 
-          <div class="companylogo" id="ethlogo"></div>
+          <div class="row">
+            <div class="companylogo col-lg-4 col-md-2 col-sm-1" id="ethlogo"></div>
 
-          <div class="copmanyDesc">
-            <h2 class="position-title">Teaching Assistant</h2>
-            <p>Being a teaching assistant taught me to confidently lead large groups of people and effectively prepare individuals for upcoming tasks such as midterms and general exams. The job as TA included tasks such as creating new teaching
-              materials as well as creating and grading assignments and finals. In my time as TA I taught Introduction to Programming twice (Fall 2017 and 2018) and Parallel Programming (Spring 2018).</p>
-            <h5>Zurich, CH: Sept 2017 - Feb 2019</h5>
+            <div class="copmanyDesc col-lg-6 col-md-4 col-sm-3">
+              <h2 class="position-title">Teaching Assistant</h2>
+              <p>Being a teaching assistant taught me to confidently lead large groups of people and effectively prepare individuals for upcoming tasks such as midterms and general exams. The job as TA included tasks such as creating new teaching
+                materials as well as creating and grading assignments and finals. In my time as TA I taught Introduction to Programming twice (Fall 2017 and 2018) and Parallel Programming (Spring 2018).</p>
+              <h5>Zurich, CH: Sept 2017 - Feb 2019</h5>
+            </div>
           </div>
+
         </div>
       </div>
 
@@ -130,14 +144,18 @@
         <div class="overlay">
 
           <div class="jobposition-content">
-            <div class="companylogo" id="ghosterylogo"></div>
 
-            <div class="copmanyDesc">
-              <h2 class="position-title">Summer Intern</h2>
-              <p>While working at Ghostery, I was put on various projects which were all in different programming languages. My main two projects in this short internship were a tool to check whether the Ghostery extension would break webpages and
-                updates to the Ghostery install screen.</p>
-              <h5>New York, NY, USA: Aug 2018 - Sept 2018</h5>
+            <div class="row">
+              <div class="companylogo col-lg-4 col-md-2 col-sm-1" id="ghosterylogo"></div>
+
+              <div class="copmanyDesc col-lg-6 col-md-4 col-sm-3">
+                <h2 class="position-title">Summer Intern</h2>
+                <p>While working at Ghostery, I was put on various projects which were all in different programming languages. My main two projects in this short internship were a tool to check whether the Ghostery extension would break webpages and
+                  updates to the Ghostery install screen.</p>
+                <h5>New York, NY, USA: Aug 2018 - Sept 2018</h5>
+              </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -149,14 +167,18 @@
 
           <div class="jobposition-content" id="cliqz-content">
 
-            <div class="companylogo" id="cliqzlogo"></div>
+            <div class="row">
 
-            <div class="copmanyDesc">
-              <h2 class="position-title">Full Stack Software Engineering Working Student</h2>
-              <p>From June 2016 until August 2016 I worked as a returning intern until converting to a working student for the following year. During my time at Cliqz I built an interface visible to and used by all Cliqz users on a daily basis. The
-                development of an additional interface was partly in cooperation with Mozilla Firefox. This interface was visible to and used daily by all Cliqz users as well as a considerable amount of Mozilla Firefox users.</p>
-              <h5>Munich, DE: Jun 2016 - Sept 2017</h5>
+              <div class="companylogo col-lg-4 col-md-2 col-sm-1" id="cliqzlogo"></div>
+
+              <div class="copmanyDesc col-lg-6 col-md-4 col-sm-3">
+                <h2 class="position-title">Full Stack Software Engineering Working Student</h2>
+                <p>From June 2016 until August 2016 I worked as a returning intern until converting to a working student for the following year. During my time at Cliqz I built an interface visible to and used by all Cliqz users on a daily basis. The
+                  development of an additional interface was partly in cooperation with Mozilla Firefox. This interface was visible to and used daily by all Cliqz users as well as a considerable amount of Mozilla Firefox users.</p>
+                <h5>Munich, DE: Jun 2016 - Sept 2017</h5>
+              </div>
             </div>
+
           </div>
         </div>
 
@@ -170,13 +192,16 @@
 
           <div class="jobposition-content" id="burda-content">
 
-            <div class="companylogo" id="burdalogo"></div>
+            <div class="row">
+              <div class="companylogo col-lg-4 col-md-2 col-sm-1" id="burdalogo"></div>
 
-            <div class="copmanyDesc">
-              <h2 class="position-title">Computer Science Tutor for Refugees</h2>
-              <p>Burda Cliqz Camp was a program with the purpose of teaching the basics of computer science to a select group of young refugees. Taught Python and the basics of CS with the help of colleagues at Cliqz GmbH. One participant was eventually hired by a Burda company.</p>
-              <h5>Munich, DE: Jun 2016 - Aug 2016</h5>
+              <div class="copmanyDesc col-lg-6 col-md-4 col-sm-3">
+                <h2 class="position-title">Computer Science Tutor for Refugees</h2>
+                <p>Burda Cliqz Camp was a program with the purpose of teaching the basics of computer science to a select group of young refugees. Taught Python and the basics of CS with the help of colleagues at Cliqz GmbH. One participant was eventually hired by a Burda company.</p>
+                <h5>Munich, DE: Jun 2016 - Aug 2016</h5>
+              </div>
             </div>
+
           </div>
         </div>
 
