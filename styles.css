@@ -52,10 +52,16 @@ h3 {
 }
 
 .position-title {
-  margin: 0;
+  margin: 0 0 15px 0;
   color: #de4463;
   font-variant: small-caps;
   font-weight: bold;
+}
+
+.position-date {
+  font-variant: small-caps;
+  margin: 0 0 15px 0;
+
 }
 
 #title {
