@@ -8,7 +8,7 @@ body {
 }
 
 .top-container {
-  background-image: url("./images/background-nyc.jpeg");
+  background-image: url("../images/background-nyc.jpeg");
   background-size: cover;
   background-repeat: no-repeat, no-repeat;
   background-position: right, left;
@@ -286,62 +286,62 @@ a:hover {
 }
 
 #uber {
-  background-image: url("./images/uber.png");
+  background-image: url("../images/uber.png");
 }
 
 #disney {
-  background-image: url("./images/disney.png");
+  background-image: url("../images/disney.png");
 }
 
 #eth {
-  background-image: url("./images/eth.jpg");
+  background-image: url("../images/eth.jpg");
 }
 
 #ghostery {
-  background-image: url("./images/ghostery.jpg");
+  background-image: url("../images/ghostery.jpg");
 }
 
 #cliqz {
-  background-image: url("./images/cliqz.png");
+  background-image: url("../images/cliqz.png");
 }
 
 #burda {
-  background-image: url("./images/burda.jpg");
+  background-image: url("../images/burda.jpg");
 }
 
 #cliqzlogo {
-  background-image: url("./images/cliqzlogo.png");
+  background-image: url("../images/cliqzlogo.png");
   background-repeat: no-repeat;
   background-position: center;
   filter: drop-shadow(0 0 1px #222);
 }
 
 #uberlogo {
-  background-image: url("./images/uberlogo.png");
+  background-image: url("../images/uberlogo.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #drlogo {
-  background-image: url("./images/drlogo.png");
+  background-image: url("../images/drlogo.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #ethlogo {
-  background-image: url("./images/ethlogo.png");
+  background-image: url("../images/ethlogo.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #ghosterylogo {
-  background-image: url("./images/ghosterylogo.png");
+  background-image: url("../images/ghosterylogo.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #burdalogo {
-  background-image: url("./images/burdalogo.png");
+  background-image: url("../images/burdalogo.png");
   background-repeat: no-repeat;
   background-position: center;
 }
